@@ -1,0 +1,24 @@
+﻿Two sum
+
+Given an array of integers, return indices of the two numbers such that they add up to a specific target. 
+You may assume that each input would have exactly one solution.
+
+Example:
+
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+1
+2
+3
+4
+1
+2
+3
+4
+UPDATE (2016/2/13): 
+The return format had been changed to zero-based indices. Please read the above updated description carefully. 
+Subscribe to see which companies asked this question.
+
+题意：找出数组numbers中的两个数，它们的和为给定的一个数target，并返回这两个数的索引，注意这里的索引不是数组下标，而是数组下标加1。比如numbers={2,7,11,17}; target=9。那么返回一个元组(1,2)。这道题不需要去重，对于每一个target输入，只有一组解，索引要按照大小顺序排列。
